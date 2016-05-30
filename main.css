@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  position: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: fantasy;
+}
+
+#title {
+  font-size: 2.5rem;
+  font-style: oblique;
+}
+
+
+
+p {
+  padding: 60px;
+}
+
+.info li {
+  list-style-type: none;
+  position: relative;
+  right: 20px;
+}
+
+
+.tech li {
+  list-style-type: none;
+  position: relative;
+  right: 20px;
+}
