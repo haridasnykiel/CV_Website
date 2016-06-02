@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  position: 1rem;
+  position: 2rem;
 }
 
 h1 {
@@ -19,19 +19,32 @@ p {
   padding: 60px;
 }
 
-.info li {
+footer li {
+  list-style-type: none;
+  position: relative;
+
+}
+
+
+#tech li {
   list-style-type: none;
   position: relative;
   right: 20px;
 }
 
-
-.tech li {
-  list-style-type: none;
-  position: relative;
-  right: 20px;
-}
-
-.education {
+#education {
   padding: 15px;
+}
+
+.contact {
+  padding: 60px;
+  font-size: 1.5rem;
+  background-color: DeepSkyBlue;
+}
+
+.contact input {
+  font-size: 1.5rem;
+  display: block;
+  padding: 0.5rem;
+  margin: 1rem;
 }

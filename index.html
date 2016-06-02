@@ -4,22 +4,19 @@
         <title>Haridas Nykiel CV</title>
         <link rel="stylesheet" href="main.css">
     </head>
-  <center>
+
     <body background="background3.gif">
+      <center>
       <div class="container">
-              <section class="info">
+        <!-- My personal information and profile. -->
+          <header>
               <h1 id="title">Haridas Nykiel</h1>
-                <ul>
-                    <li>07878335986</li>
-                    <li>haridasnykiel@gmail.com</li>
-                </ul>
-                  </section>
-                  <section class="personal">
-                <h1>Personal Profile</h1>
-                <p>One of my top interests is technology, more specifically computing. I enjoy learning how computers operate and function. I am very passionate and eager to learn more about Information Technology in all its aspects. I am especially interested in networking and software development. I have had experience in IT support, which has increased my knowledge in IT and also expanded my communication skills.
+              <h1>Personal Profile</h1>
+              <p>One of my top interests is technology, more specifically computing. I enjoy learning how computers operate and function. I am very passionate and eager to learn more about Information Technology in all its aspects. I am especially interested in networking and software development. I have had experience in IT support, which has increased my knowledge in IT and also expanded my communication skills.
                 I am punctual, hardworking, able to interact and cooperate with a team to function effectively in my work. Skilled in providing excellent customer service to members of the public in different scenarios. Determined with good leadership and management skills.</p>
-          </section>
-          <section class="tech">
+          </header>
+          <!-- My personal information and profile End. -->
+          <section id="tech">
             <h1>Technical Skills</h1>
             <ul>
               <li>HTML</li>
@@ -36,7 +33,8 @@
             </ul>
             <p>These skills were mostly gained from the Computer Science Degree, Foundation Degree, BTEC qualifications. Also gained more in depth knowledge on these technologies, from my time as an IT engineer in Rock IT, Technical engineer in Twin Technology and an assistant network engineer at ISKCON Bhaktivedanta Manor.</p>
           </section>
-          <section class="employment">
+          <!-- Employment section -->
+          <section id="employment">
               <h1>Employment History</h1>
                 <h3>Trainee Software Developer in Test</h3>
                   <h4>5/2016 - present</h4>
@@ -68,7 +66,8 @@
                   <h4>Qi Kwan Do</h4>
                     <p>It required me to help with setting up of classes, assisting the instructor to teach the students and also teaching new students the basics. This increased my communication skills with both senior and junior customers. I also gained some experience in promoting and advertising the school and working as a team. </p>
           </section>
-          <section class="education">
+          <!-- Education section -->
+          <section id="education">
               <h1>Education</h1>
               <h2>Bachelors Honours Degree in Computer Science</h2>
                 <h4>Attendance 09/2012 to 06/2013</h4>
@@ -79,7 +78,7 @@
               <h4>Foundation Degree (Computer Science)</h4>
               <h4>Attendance 09/2010 to 06/2012</h4>
               <h4>University of Hertfordshire </h4>
-              
+
 
             <h2>BTEC National Diploma for IT Practitioners (Networking)</h2>
               <h4>Attendance 09/2008 to 06/2010.</h4>
@@ -87,15 +86,33 @@
                 <p>I have also have been awarded level 2 Key Skills in Application of Number.</p>
 
           </section>
-          <section class="hobby">
+          <section id="hobby">
             <h1>Hobbies and Interests</h1>
             <p>My most passionate hobby is Music Production. Also, I like to play guitar and train in martial arts. I have worked in various music venues as a DJ. I enjoy meeting new people, having new experiences, travelling and discovering different cultures.
             I went travelling for four months in 2014. This was January to March 2014 and July 2014. I also went for an additional 6 weeks from 10th March 2015 to 23rd April 2015. These experiences were not just for tourism, but also for self-development.</p>
         </section>
+        <section class="contact">
+          <!-- This is my contact form -->
+          <form action="http://lacedeamon.spartaglobal.com/contactform" method="post">
+            <h1>Contact Form</h1>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <input type="hidden" name="addressee" id="addressee" value="haridas">
+            <label for="message">Message</label>
+            <input type="text" name="message" id="message">
+            <input type="submit" value="Submit" >
+          </form>
+        </section>
         <footer>
-
+          <ul>
+              <li>07878335986</li>
+              <li>haridasnykiel@gmail.com</li>
+          </ul>
         </footer>
       </div>
+    </center>
     </body>
   </center>
 </html>
